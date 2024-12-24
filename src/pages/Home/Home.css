@@ -1,0 +1,88 @@
+.home-container{
+    height: 300px;
+    background-color: #1e1e1e;
+    color: white;
+    padding-left: 120px;
+}
+.home-content h2{
+    padding: 5px;
+    padding-top: 80px;
+}
+.home-content h1{
+    color: green;
+    padding: 5px;
+}
+.home-buttons{
+    padding: 20px;
+}
+
+.home-buttons .btn-hire{
+    background-color: rgb(2, 255, 44);
+    color: rgb(0, 0, 0);
+    width: 140px;
+}
+.home-buttons .btn-hire:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    width: 200px;
+    transition: 1s;
+}
+.home-buttons .btn-cv{
+    background-color: rgb(2, 255, 44);
+    color: rgb(0, 0, 0);
+    width: 140px;
+    margin-left: 15px;
+}
+.home-buttons .btn-cv:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    width: 200px;
+    font-weight:bold;
+
+    transition: 1s;
+}
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
+@media(max-width: 600px) {
+    .home-container{
+     padding: 0;
+     margin: 0;   
+     margin-top: 50px;
+    }
+    .home-buttons{
+        padding: 0;
+    }
+    .home-container h2{
+        font-size: 20px;
+    }
+    .home-container h1{
+        font-size: 24px;
+    }
+    .home-buttons .btn-hire:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 0, 0);
+        width: 140px;
+        transition: 1s;
+    }
+    .home-buttons .btn-cv:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 0, 0);
+        width: 140px;
+        font-weight:bold;
+        transition: 1s;
+    }
+}
