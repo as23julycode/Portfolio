@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./WorkExp.css";
 import { MdOutlineDeveloperMode } from "react-icons/md";
@@ -24,7 +25,7 @@ const WorkExp = () => {
               icon={<MdOutlineDeveloperMode />}
             >
               <h3 className="vertical-timeline-element-title">
-                Trainee IT
+                IT Consultant
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Innova Solutions
@@ -32,29 +33,25 @@ const WorkExp = () => {
               <ol>
                 <li>
                   <p>
-                  Translated complex design requirements into interactive user experiences to promote customer
-                  engagement and drive web traffic.
+                  Collaborated with hiring managers to identify key skills and qualifications for open positions, resulting in
+ a 20 increase in successful hires and a 10 increase in employee retention.
                   </p>
                 </li>
                 <li>
                   <p>
-                  Built and tested application functionality to ensure a desirable user experience across all platforms.
+                  Prepare reports, emails and create, maintain, and enter information into databases, and other
+ documents, using word processing, spreadsheet, database.
                   </p>
                 </li>
                 <li>
                   <p>
-                  Optimized page elements to reduce loading time and debugged code to ensure cross-browser usability.
+                  Resolving the issues by the medium of Call/ Emails/Remote (Team Viewer).
                   </p>
                 </li>
                 <li>
                   <p>
-                  Collaborated with other developers, designers, and project teams to ensure successful, on-schedule
-                  development and delivery of applications.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                  Developed back-end components and integrated them with front-end applications.
+                  Utilized social media and other recruiting tools to build a strong talent pipeline, resulting in a 30 increase
+ in candidate engagement and a 20 increase in referrals.
                   </p>
                 </li>
               </ol>
